@@ -1,7 +1,7 @@
 provider "aws" {
-  region = "ap-south-1"
-  access_key= "XXXXXXXXXXXXXXX"
-  secret_key= "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  region = "us-south-1"
+  access_key= "AKIA4H2WFVZLKZEEAYEW"
+  secret_key= "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"
   
   
 }
@@ -118,8 +118,8 @@ resource "aws_default_security_group" "default-sg" {
 
 
 resource "aws_key_pair" "ssh-key" {
-  key_name   = "myapp-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDYlDlr8hgHkKBNqu2m0g6qWbIXGmss5vWTc8ZjYMqxJv5sYX+kNkkeyn2wC06KSWKQ8DpAE6dGnhlsWmc2/ZXjPKjCkx6ne4axdRU1vXIeC7Dq5T9gsdilbL0oRF7UJyE8oXs6xR66i8Kdaujwo5wSMihcVIkUVUqXYZCKm+gnPQLMAUcvXO2coCR8GH4tr7SssfGsEGubDjEFFr0tOKYW2qOV7Pj/69X3Vasqys2HtegXAXWjShSb1zN3LPmMOdYLs6AG4V0wJH2geQ/i97FVSk7O5CpmYByAkXVuPbRtoXQgb1PcbhZMQi2WPDlCP3HcRoB3rnds9nYm0eKtUXQHQmiCIi1YPAdqRvpyGdfoq9S4X/YmjTgOAvwcAmK24saDTjYbmOAkjhEOh+tEtxGs/358L1QzQpatt0pCieZqyXgzpVosTWc9QoZhew0RtaZ9eVL2+rwhxavrhZU/oxpUHj50892YzsthPtRjxZOelk/H8gV7/TlFZhHTkB6V1Gk= ubuntu@ip-172-31-43-43"
+  key_name   = "Bob"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDB+o3HibT+BG7AZwm6AMRIDN83Qg2MGDL7WUCTOivsTSXWnxX527XI68wKJgjk79057tozzw8CDEpjBlH5YkGNXlhD4Qpj8PSB4pmVrqrg/tOUZv14C4Qoh9gtBOggGXloik6oznZyowxpp9PAo/b0nEaNcvZgDj0eYsTkkcdzu/BxTEaPDQTpfeh4NQwWA8k609ODIWSA2nBitgAVTeS6X6sOye3rv+t3GwT6eWaFG0ZsyodQmpkGef49v7x2kISavWSyFiTc96+A1Jp8b9WmuM/p7COYvHEivrYr+oBcddQHHpjJc8aSc9VdIaHA/Gd95kodVIy9NfOK4ElyTJx3"
 
 }
 
