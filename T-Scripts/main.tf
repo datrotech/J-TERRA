@@ -118,8 +118,8 @@ resource "aws_default_security_group" "default-sg" {
 
 
 resource "aws_key_pair" "ssh-key" {
-  key_name   = "Bob_terra"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDB+o3HibT+BG7AZwm6AMRIDN83Qg2MGDL7WUCTOivsTSXWnxX527XI68wKJgjk79057tozzw8CDEpjBlH5YkGNXlhD4Qpj8PSB4pmVrqrg/tOUZv14C4Qoh9gtBOggGXloik6oznZyowxpp9PAo/b0nEaNcvZgDj0eYsTkkcdzu/BxTEaPDQTpfeh4NQwWA8k609ODIWSA2nBitgAVTeS6X6sOye3rv+t3GwT6eWaFG0ZsyodQmpkGef49v7x2kISavWSyFiTc96+A1Jp8b9WmuM/p7COYvHEivrYr+oBcddQHHpjJc8aSc9VdIaHA/Gd95kodVIy9NfOK4ElyTJx3"
+  key_name   = "key"
+  public_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 }
 
